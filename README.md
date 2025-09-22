@@ -1,5 +1,5 @@
-                                              ##### TUPLE #####
-                                          #### THIS IS FOR MY JUNIORS ####
+                                                   ##### TUPLE #####
+                                             #### THIS IS FOR MY JUNIORS ####
                                         ### ALL THE BEST FOR USER FUTURE GOAL ###
 INTRODUCTION :
      A tuple is a collection of ordered elements in Python.
@@ -73,7 +73,7 @@ IMPLEMENTATION :
     
 # tpl with initial value
    tpl=("dharun","royal","sivan","preethi","aish","1213")
-   print(tpl)  #'dharun','royal','sivan','preethi','aish','1213'
+   print(tpl)      #'dharun','royal','sivan','preethi','aish','1213'
    print(len(tpl))
      
 # positive index
@@ -117,16 +117,20 @@ IMPLEMENTATION :
 
   empty_tpl=()
   print(empty_tpl)
-  name=("preethi","gayathri","divya","sahana")
+  
+  name=("preethi","dharun","divya")
   name1=("dharaneesh","giri","vivith","hari")
   siblings=name+name1
-  print(siblings)
-  print(len(siblings))
+  print(siblings)      #preethi,dharun,dhivya,dharaneesh,giri,vivith,hari
+  print(len(siblings))  # 7
+  
   family_member=siblings
   print(family_member)
+  
   family_member1=("saravanan","karthigai selvi")
   family=family_member+family_member1
   print(family)
+  
   fam=(family_member,family_member1)
   all_sibling,all_parents=fam
   print("siblings:",all_sibling)
@@ -139,20 +143,27 @@ IMPLEMENTATION :
   animals=("dog","cat","lion")
   food_stuff_tp=fruits+vegetables+animals
   print(food_stuff_tp)
+  
   food_stuff_lt=list(food_stuff_tp)
   print(food_stuff_lt)
+  
   l=len(food_stuff_lt)
   print(l)
+  
   if l %2!=0:
       middle_items=food_stuff_lt[l//2-1 : l//2+1]
   else:
       middle_items=[food_stuff_lt[l//2]]
   print(middle_items)
   print(food_stuff_lt[:3],food_stuff_lt[-3:])
+  
   del food_stuff_tp
+  
+  # Using exception error : 
   try:
       print("dog"in food_stuff_tp)
   except:
       print("you cannot access the food_stuff_tp,because it already deleted")
        
-      
+                            ### ALL THE BEST FOR FUTURE GOAL ONCE AGAIN ####
+                                    #### THANK YOU SO MUCH ####
